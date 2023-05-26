@@ -1,0 +1,129 @@
+.logo
+{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top:-20px;
+}
+#menu
+{
+    width: 100%;
+    border: 1px solid aquamarine;
+    height: 100px;
+    background-color: aquamarine;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    border-radius: 10px;
+}
+#menu ul
+{
+    margin-top: 42px;
+}
+#menu ul li
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: 90px;
+    position: relative;
+    top:-20px;
+}
+#menu ul li a:link 
+{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}      
+#menu ul li a:visited
+{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}             
+#menu ul li a:hover
+{
+    color: black;
+    background-color: aquamarine;
+    box-shadow: 0px 4px 5px rgba(50, 50, 50, 0.93);
+}
+.icon
+{
+    float:right;
+    position: relative;
+    top:-23px;
+    padding-left:5px;
+}
+@media screen and (max-width: 600px) 
+{ 
+table#cart tbody td .form-control 
+{ 
+    width:20%; 
+    display: inline !important;
+} 
+.actions .btn { 
+    width:36%; 
+    margin:1.5em 0;
+    } 
+.actions .btn-info { 
+    float:left;
+    } 
+.actions .btn-danger { 
+    float:right;
+    } 
+table#cart thead {
+    display: none;
+} 
+table#cart tbody td {
+    display: block;
+    padding: .6rem;
+    min-width:320px;
+} 
+table#cart tbody tr td:first-child {
+    background: #333;
+    color: #fff;
+} 
+table#cart tbody td:before { 
+    content: attr(data-th);
+    font-weight: bold; 
+    display: inline-block;
+    width: 8rem;
+} 
+table#cart tfoot td {
+    display:block;
+} 
+table#cart tfoot td .btn {
+    display:block;
+}
+}
+.img-responsive
+{
+        max-width: 115px;
+        height: auto;
+}
+    .d-flex input 
+{
+        border-radius: 12px;
+}
+.d-flex button
+{
+        color: black;
+        border-color: rgb(185, 185, 185);
+        border-radius: 12px;
+}
+.d-flex button:hover 
+{
+     color: white;
+     background-color: lightseagreen;
+}
+.row-md
+{
+     margin-left: 20%;
+}
+
+.row
+{
+     margin-bottom: 25px;      
+}
